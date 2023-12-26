@@ -1,0 +1,63 @@
+.join{
+    display: flex;
+    padding:  2rem;
+    gap:10rem;
+}
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.left-j>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20px;
+    margin: -10px 0;
+}
+.right-j{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.right-j>:nth-child(1){
+    position: absolute;
+    width: 22rem ;
+    height: 4rem;
+    border:2px solid var(--orange);
+    background-color:transparent;
+    right: 2rem;
+    top: 2.2rem;
+    z-index: -1;
+}
+.right-j>:nth-child(2){
+    position: absolute;
+    width: 22rem ;
+    height: 4rem;
+    background:var(--planCard) ;
+    top: 4.3rem;
+    right:-0.6rem ;
+    z-index: -1;
+}
+.email-container{
+    display: flex;
+    gap: 3rem;
+    background-color:white;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color:var(--gray);
+}
+.btn-j{
+    background-color: var(--orange);
+    color: white;
+}
